@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-22T09:08:26 IST" name="Suite" finished-at="2021-07-22T09:08:43 IST" duration-ms="17626">
+    <groups>
+    </groups>
+    <test started-at="2021-07-22T09:08:26 IST" name="Test" finished-at="2021-07-22T09:08:43 IST" duration-ms="17626">
+      <class name="seleniumlearn.seleniumja.HomePageTest">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:seleniumlearn.seleniumja.HomePageTest@3901d134]" started-at="2021-07-22T09:08:26 IST" name="intialize" finished-at="2021-07-22T09:08:30 IST" duration-ms="4402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="basepageNavigation(java.lang.String,java.lang.String)[pri:0, instance:seleniumlearn.seleniumja.HomePageTest@3901d134]" started-at="2021-07-22T09:08:34 IST" name="basepageNavigation" data-provider="getData" finished-at="2021-07-22T09:08:43 IST" duration-ms="9193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravishraj85@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:seleniumlearn.seleniumja.HomePageTest@3901d134]" started-at="2021-07-22T09:08:43 IST" name="closebrowser" finished-at="2021-07-22T09:08:43 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- seleniumlearn.seleniumja.HomePageTest -->
+      <class name="seleniumlearn.seleniumja.ValidateTitle">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:seleniumlearn.seleniumja.ValidateTitle@30b7c004]" started-at="2021-07-22T09:08:30 IST" name="intialize" finished-at="2021-07-22T09:08:34 IST" duration-ms="3836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="basepageNavigation()[pri:0, instance:seleniumlearn.seleniumja.ValidateTitle@30b7c004]" started-at="2021-07-22T09:08:43 IST" name="basepageNavigation" finished-at="2021-07-22T09:08:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:seleniumlearn.seleniumja.ValidateTitle@30b7c004]" started-at="2021-07-22T09:08:43 IST" name="closebrowser" finished-at="2021-07-22T09:08:43 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- seleniumlearn.seleniumja.ValidateTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
